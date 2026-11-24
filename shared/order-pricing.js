@@ -1,20 +1,24 @@
 function isShirt(item) {
-  return item.categories.some(category => ["poleras", "camisetas"].includes(category.trim().toLowerCase()));
+  return Array.isArray(item.categories) && item.categories.some(category => ["poleras","camisetas"].includes(category.trim().toLowerCase()));
 }
-
-function orderPricing(items) {
+function promotionActive(now = Date.now()) {
+  return now < Date.parse("2027-01-01T00:00:00-03:00");
+}
+function orderPricing(items, now = Date.now()) {
   let subtotal = 0;
-  let eligibleSubtotal = 0;
-  let shirts = 0;
+  const prices = [];
   for (const item of items) {
-    const lineTotal = item.price * item.quantity;
-    subtotal += lineTotal;
-    if (isShirt(item)) {
-      eligibleSubtotal += lineTotal;
-      shirts += item.quantity;
-    }
+    subtotal += item.price * item.quantity;
+    if (isShirt(item)) for (let i=0;i<item.quantity;i++) prices.push(item.price);
   }
-  const percent = shirts >= 3 ? 25 : shirts === 2 ? 20 : 0;
-  const discount = Math.round(eligibleSubtotal * percent / 100);
-  return {subtotal, percent, discount, amount: subtotal - discount};
+  if (!promotionActive(now)) return {subtotal,percent:0,discount:0,amount:subtotal};
+  prices.sort((a,b)=>a-b);
+  const dp=[0];
+  for(let i=1;i<=prices.length;i++){
+    dp[i]=dp[i-1]+prices[i-1];
+    for(const [count,price] of [[2,24990],[3,36990],[4,44990]]) if(i>=count) dp[i]=Math.min(dp[i],dp[i-count]+price);
+  }
+  const eligibleSubtotal=prices.reduce((sum,p)=>sum+p,0);
+  const discount=eligibleSubtotal-dp[prices.length];
+  return {subtotal,percent:eligibleSubtotal?Math.round(discount*100/eligibleSubtotal):0,discount,amount:subtotal-discount};
 }

@@ -1,9 +1,9 @@
 [
   {
     "id": "real-madrid",
-    "name": "Polera Real Madrid · Mbappé 10",
+    "name": "Camiseta Real Madrid · Mbappé 10",
     "price": 22990,
-    "description": "Polera blanca del Real Madrid con insignia bordada y dorsal MBAPPÉ 10.",
+    "description": "Camiseta blanca del Real Madrid con insignia bordada y dorsal MBAPPÉ 10.",
     "sizes": [
       "S",
       "M",
@@ -14,19 +14,19 @@
     "legacyImages": ["/mbappe-estudio-frente.png", "/mbappe-10-frente.png", "/real-madrid.webp", "/media/e03a29cc-2798-49cc-aad1-5280457ad62a"],
     "position": 10,
     "categories": [
-      "Poleras"
+      "Camisetas"
     ]
   },
   {
     "id": "real-madrid-mbappe-ninos",
-    "name": "Polera Real Madrid · Mbappé 10 · Niños",
+    "name": "Camiseta Real Madrid · Mbappé 10 · Niños",
     "price": 22990,
-    "description": "Polera blanca del Real Madrid con insignia bordada y dorsal MBAPPÉ 10.",
+    "description": "Camiseta blanca del Real Madrid con insignia bordada y dorsal MBAPPÉ 10.",
     "sizes": ["8"],
     "image": "/mbappe-hd-frente.png",
     "legacyImages": ["/mbappe-estudio-frente.png", "/mbappe-10-frente.png", "/mbappe-frente.png"],
     "position": 10,
-    "categories": ["Niños", "Poleras"]
+    "categories": ["Niños", "Camisetas"]
   },
   {
     "id": "barcelona",
@@ -42,7 +42,7 @@
     "image": "/barcelona.webp",
     "position": 20,
     "categories": [
-      "Poleras"
+      "Camisetas"
     ]
   },
   {
@@ -59,14 +59,14 @@
     "image": "/villarreal.webp",
     "position": 30,
     "categories": [
-      "Poleras"
+      "Camisetas"
     ]
   },
   {
     "id": "liverpool",
-    "name": "Polera Liverpool · Wirtz 7",
+    "name": "Camiseta Liverpool · Wirtz 7",
     "price": 22990,
-    "description": "Polera roja de Liverpool con insignia bordada y dorsal WIRTZ 7.",
+    "description": "Camiseta roja de Liverpool con insignia bordada y dorsal WIRTZ 7.",
     "sizes": [
       "S",
       "M",
@@ -77,7 +77,7 @@
     "legacyImages": ["/liverpool-estudio-frente.png", "/liverpool-wirtz-frente.png", "/liverpool.webp", "/media/b3a9040a-c0c3-4531-98aa-ffdbff35de86"],
     "position": 40,
     "categories": [
-      "Poleras"
+      "Camisetas"
     ]
   },
   {
@@ -94,7 +94,7 @@
     "image": "/manchester-city.webp",
     "position": 50,
     "categories": [
-      "Poleras"
+      "Camisetas"
     ]
   },
   {
@@ -111,7 +111,7 @@
     "image": "/arsenal.webp",
     "position": 60,
     "categories": [
-      "Poleras"
+      "Camisetas"
     ]
   },
   {
@@ -128,7 +128,7 @@
     "image": "/juventus.webp",
     "position": 70,
     "categories": [
-      "Poleras"
+      "Camisetas"
     ]
   },
   {
@@ -145,7 +145,7 @@
     "image": "/ac-milan.webp",
     "position": 80,
     "categories": [
-      "Poleras"
+      "Camisetas"
     ]
   },
   {
@@ -162,14 +162,14 @@
     "image": "/inter-milan.webp",
     "position": 90,
     "categories": [
-      "Poleras"
+      "Camisetas"
     ]
   },
   {
     "id": "local",
-    "name": "Polera Local",
+    "name": "Camiseta Local",
     "price": 22990,
-    "description": "Polera verde con ribetes claros y corte deportivo.",
+    "description": "Camiseta verde con ribetes claros y corte deportivo.",
     "sizes": [
       "S",
       "M",
@@ -179,7 +179,7 @@
     "image": "/local.webp",
     "position": 100,
     "categories": [
-      "Poleras"
+      "Camisetas"
     ]
   },
   {
@@ -214,7 +214,7 @@
     "position": 120,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -236,7 +236,7 @@
     "position": 130,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -256,7 +256,7 @@
     "position": 140,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -278,7 +278,7 @@
     "position": 150,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -298,7 +298,7 @@
     "position": 160,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -320,7 +320,7 @@
     "position": 170,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -340,7 +340,7 @@
     "position": 180,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -362,7 +362,7 @@
     "position": 190,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -382,7 +382,7 @@
     "position": 200,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -404,7 +404,7 @@
     "position": 210,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -424,7 +424,7 @@
     "position": 220,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -446,7 +446,7 @@
     "position": 230,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -466,7 +466,7 @@
     "position": 240,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -488,7 +488,7 @@
     "position": 250,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -508,7 +508,7 @@
     "position": 260,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -530,7 +530,7 @@
     "position": 270,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -550,7 +550,7 @@
     "position": 280,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -572,7 +572,7 @@
     "position": 290,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -592,7 +592,7 @@
     "position": 300,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -614,7 +614,7 @@
     "position": 310,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -634,7 +634,7 @@
     "position": 320,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -656,7 +656,7 @@
     "position": 330,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -676,7 +676,7 @@
     "position": 340,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -698,7 +698,7 @@
     "position": 350,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -718,7 +718,7 @@
     "position": 360,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -740,7 +740,7 @@
     "position": 370,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -760,7 +760,7 @@
     "position": 380,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -782,7 +782,7 @@
     "position": 390,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -802,7 +802,7 @@
     "position": 400,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -824,7 +824,7 @@
     "position": 410,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -844,7 +844,7 @@
     "position": 420,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -866,7 +866,7 @@
     "position": 430,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -886,7 +886,7 @@
     "position": 440,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -908,7 +908,7 @@
     "position": 450,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -928,7 +928,7 @@
     "position": 460,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -950,7 +950,7 @@
     "position": 470,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -970,7 +970,7 @@
     "position": 480,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -992,7 +992,7 @@
     "position": 490,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1012,7 +1012,7 @@
     "position": 500,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1034,7 +1034,7 @@
     "position": 510,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1054,7 +1054,7 @@
     "position": 520,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1076,7 +1076,7 @@
     "position": 530,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1096,7 +1096,7 @@
     "position": 540,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1118,7 +1118,7 @@
     "position": 550,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1138,7 +1138,7 @@
     "position": 560,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1160,7 +1160,7 @@
     "position": 570,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1180,7 +1180,7 @@
     "position": 580,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1202,7 +1202,7 @@
     "position": 590,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1222,7 +1222,7 @@
     "position": 600,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1244,7 +1244,7 @@
     "position": 610,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1264,7 +1264,7 @@
     "position": 620,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1286,7 +1286,7 @@
     "position": 630,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1306,7 +1306,7 @@
     "position": 640,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1328,7 +1328,7 @@
     "position": 650,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1348,7 +1348,7 @@
     "position": 660,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1370,7 +1370,7 @@
     "position": 670,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1390,7 +1390,7 @@
     "position": 680,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1412,7 +1412,7 @@
     "position": 690,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1432,7 +1432,7 @@
     "position": 700,
     "categories": [
       "Adultos",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
@@ -1454,25 +1454,25 @@
     "position": 710,
     "categories": [
       "Niños",
-      "Poleras",
+      "Camisetas",
       "Selecciones"
     ]
   },
-  {"id": "boca-paredes-rayas", "name": "Camiseta Boca Juniors a rayas · Paredes 5", "price": 22990, "description": "Blanca con rayas azules.", "sizes": ["S", "M", "L", "XL"], "image": "/boca-paredes-rayas-frente.webp", "position": 11, "categories": ["Poleras", "Adultos"], "gallery": ["/boca-paredes-rayas-frente.webp", "/boca-paredes-rayas-espalda.webp", "/boca-paredes-rayas-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
-  {"id": "city-haaland-negra", "name": "Camiseta Manchester City negra · Haaland 9", "price": 22990, "description": "Negra con detalles amarillos.", "sizes": ["S", "M", "L", "XL"], "image": "/city-haaland-negra-frente.webp", "position": 12, "categories": ["Poleras", "Adultos"], "gallery": ["/city-haaland-negra-frente.webp", "/city-haaland-negra-espalda.webp", "/city-haaland-negra-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
-  {"id": "barcelona-retro-cuello", "name": "Camiseta Barcelona retro azulgrana", "price": 22990, "description": "Azulgrana con cuello blanco.", "sizes": ["S", "M", "L", "XL"], "image": "/barcelona-retro-cuello-frente.webp", "position": 13, "categories": ["Poleras", "Adultos"], "gallery": ["/barcelona-retro-cuello-frente.webp", "/barcelona-retro-cuello-espalda.webp", "/barcelona-retro-cuello-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
-  {"id": "inter-miami-messi-gris", "name": "Camiseta Inter Miami gris · Messi 10", "price": 22990, "description": "Gris con detalles rosados y turquesa.", "sizes": ["S", "M", "L", "XL"], "image": "/inter-miami-messi-gris-frente.webp", "position": 14, "categories": ["Poleras", "Adultos"], "gallery": ["/inter-miami-messi-gris-frente.webp", "/inter-miami-messi-gris-espalda.webp", "/inter-miami-messi-gris-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
-  {"id": "barcelona-pedri-turquesa", "name": "Camiseta Barcelona turquesa · Pedri 8", "price": 22990, "description": "Turquesa con cuello azul.", "sizes": ["S", "M", "L", "XL"], "image": "/barcelona-pedri-turquesa-frente.webp", "position": 15, "categories": ["Poleras", "Adultos"], "gallery": ["/barcelona-pedri-turquesa-frente.webp", "/barcelona-pedri-turquesa-espalda.webp", "/barcelona-pedri-turquesa-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
-  {"id": "barcelona-pedri-cruz", "name": "Camiseta Barcelona crema · Pedri 8", "price": 22990, "description": "Crema con cruz roja.", "sizes": ["S", "M", "L", "XL"], "image": "/barcelona-pedri-cruz-frente.webp", "position": 16, "categories": ["Poleras", "Adultos"], "gallery": ["/barcelona-pedri-cruz-frente.webp", "/barcelona-pedri-cruz-espalda.webp", "/barcelona-pedri-cruz-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
-  {"id": "jamaica-marley-negra", "name": "Camiseta Jamaica negra · Marley 10", "price": 22990, "description": "Negra con motivos rojos, verdes y amarillos.", "sizes": ["S", "M", "L", "XL"], "image": "/jamaica-marley-negra-frente.webp", "position": 17, "categories": ["Poleras", "Adultos"], "gallery": ["/jamaica-marley-negra-frente.webp", "/jamaica-marley-negra-espalda.webp", "/jamaica-marley-negra-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
-  {"id": "arsenal-odegaard-roja", "name": "Camiseta Arsenal roja · Ødegaard 8", "price": 22990, "description": "Roja con mangas blancas.", "sizes": ["S", "M", "L", "XL"], "image": "/arsenal-odegaard-roja-frente.webp", "position": 18, "categories": ["Poleras", "Adultos"], "gallery": ["/arsenal-odegaard-roja-frente.webp", "/arsenal-odegaard-roja-espalda.webp", "/arsenal-odegaard-roja-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
-  {"id": "barcelona-rodrigo-azul", "name": "Camiseta Barcelona azul oscuro · Rodrigo 16", "price": 22990, "description": "Azul oscuro con detalles amarillos.", "sizes": ["S", "M", "L", "XL"], "image": "/barcelona-rodrigo-azul-frente.webp", "position": 19, "categories": ["Poleras", "Adultos"], "gallery": ["/barcelona-rodrigo-azul-frente.webp", "/barcelona-rodrigo-azul-espalda.webp", "/barcelona-rodrigo-azul-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
-  {"id": "arsenal-saka-azul", "name": "Camiseta Arsenal azul · Saka 7", "price": 22990, "description": "Azul con detalles amarillos y rojos.", "sizes": ["S", "M", "L", "XL"], "image": "/arsenal-saka-azul-frente.webp", "position": 20, "categories": ["Poleras", "Adultos"], "gallery": ["/arsenal-saka-azul-frente.webp", "/arsenal-saka-azul-espalda.webp", "/arsenal-saka-azul-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
-  {"id": "chelsea-caicedo-azul", "name": "Camiseta Chelsea azul · Caicedo 25", "price": 22990, "description": "Azul con detalles amarillos.", "sizes": ["S", "M", "L", "XL"], "image": "/chelsea-caicedo-azul-frente.webp", "position": 21, "categories": ["Poleras", "Adultos"], "gallery": ["/chelsea-caicedo-azul-frente.webp", "/chelsea-caicedo-azul-espalda.webp", "/chelsea-caicedo-azul-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
-  {"id": "city-haaland-celeste-g5", "name": "Camiseta Manchester City celeste · Haaland 9", "price": 22990, "description": "Celeste con detalles blancos e insignia termosellada.", "sizes": ["S", "M", "L", "XL"], "image": "/city-haaland-celeste-g5-frente.webp", "position": 22, "categories": ["Poleras", "Adultos"], "gallery": ["/city-haaland-celeste-g5-frente.webp", "/city-haaland-celeste-g5-espalda.webp", "/city-haaland-celeste-g5-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
-  {"id": "bayern-kane-blanca", "name": "Camiseta Bayern Múnich blanca · Kane 9", "price": 22990, "description": "Blanca con cuello azul y vivos rojos.", "sizes": ["S", "M", "L", "XL"], "image": "/bayern-kane-blanca-frente.webp", "position": 23, "categories": ["Poleras", "Adultos"], "gallery": ["/bayern-kane-blanca-frente.webp", "/bayern-kane-blanca-espalda.webp", "/bayern-kane-blanca-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
-  {"id": "chelsea-palmer-negra", "name": "Camiseta Chelsea negra · Palmer 10", "price": 22990, "description": "Negra con detalles amarillos.", "sizes": ["S", "M", "L", "XL"], "image": "/chelsea-palmer-negra-frente.webp", "position": 24, "categories": ["Poleras", "Adultos"], "gallery": ["/chelsea-palmer-negra-frente.webp", "/chelsea-palmer-negra-espalda.webp", "/chelsea-palmer-negra-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
-  {"id": "arsenal-saka-ninos", "name": "Camiseta Arsenal roja · Saka 7 · Niños", "price": 22990, "description": "Roja con mangas blancas e insignia bordada.", "sizes": ["10", "12", "14"], "image": "/arsenal-saka-ninos-frente.webp", "position": 25, "categories": ["Poleras", "Niños"], "gallery": ["/arsenal-saka-ninos-frente.webp", "/arsenal-saka-ninos-espalda.webp", "/arsenal-saka-ninos-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [0, 1, 2]},
-  {"id": "city-haaland-celeste-bordada", "name": "Camiseta Manchester City celeste bordada · Haaland 9", "price": 22990, "description": "Celeste con detalles blancos e insignia bordada.", "sizes": ["S", "M"], "image": "/city-haaland-celeste-bordada-frente.webp", "position": 26, "categories": ["Poleras", "Adultos"], "gallery": ["/city-haaland-celeste-bordada-frente.webp", "/city-haaland-celeste-bordada-espalda.webp", "/city-haaland-celeste-bordada-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [0, 1, 2]},
-  {"id": "universidad-catolica-blanca", "name": "Camiseta Universidad Católica blanca", "price": 22990, "description": "Blanca con franja azul y cuello azul.", "sizes": ["S", "M", "L", "XL"], "image": "/universidad-catolica-blanca-frente.webp", "position": 27, "categories": ["Poleras", "Adultos"], "gallery": ["/universidad-catolica-blanca-frente.webp", "/universidad-catolica-blanca-espalda.webp", "/universidad-catolica-blanca-detalle.webp"], "galleryLabels": ["Frente", "Espalda", "Detalle del escudo"]}
+  {"id": "boca-paredes-rayas", "name": "Camiseta Boca Juniors a rayas · Paredes 5", "price": 22990, "description": "Blanca con rayas azules.", "sizes": ["S", "M", "L", "XL"], "image": "/boca-paredes-rayas-frente.webp", "position": 11, "categories": ["Camisetas", "Adultos"], "gallery": ["/boca-paredes-rayas-frente.webp", "/boca-paredes-rayas-espalda.webp", "/boca-paredes-rayas-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
+  {"id": "city-haaland-negra", "name": "Camiseta Manchester City negra · Haaland 9", "price": 22990, "description": "Negra con detalles amarillos.", "sizes": ["S", "M", "L", "XL"], "image": "/city-haaland-negra-frente.webp", "position": 12, "categories": ["Camisetas", "Adultos"], "gallery": ["/city-haaland-negra-frente.webp", "/city-haaland-negra-espalda.webp", "/city-haaland-negra-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
+  {"id": "barcelona-retro-cuello", "name": "Camiseta Barcelona retro azulgrana", "price": 22990, "description": "Azulgrana con cuello blanco.", "sizes": ["S", "M", "L", "XL"], "image": "/barcelona-retro-cuello-frente.webp", "position": 13, "categories": ["Camisetas", "Adultos"], "gallery": ["/barcelona-retro-cuello-frente.webp", "/barcelona-retro-cuello-espalda.webp", "/barcelona-retro-cuello-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
+  {"id": "inter-miami-messi-gris", "name": "Camiseta Inter Miami gris · Messi 10", "price": 22990, "description": "Gris con detalles rosados y turquesa.", "sizes": ["S", "M", "L", "XL"], "image": "/inter-miami-messi-gris-frente.webp", "position": 14, "categories": ["Camisetas", "Adultos"], "gallery": ["/inter-miami-messi-gris-frente.webp", "/inter-miami-messi-gris-espalda.webp", "/inter-miami-messi-gris-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
+  {"id": "barcelona-pedri-turquesa", "name": "Camiseta Barcelona turquesa · Pedri 8", "price": 22990, "description": "Turquesa con cuello azul.", "sizes": ["S", "M", "L", "XL"], "image": "/barcelona-pedri-turquesa-frente.webp", "position": 15, "categories": ["Camisetas", "Adultos"], "gallery": ["/barcelona-pedri-turquesa-frente.webp", "/barcelona-pedri-turquesa-espalda.webp", "/barcelona-pedri-turquesa-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
+  {"id": "barcelona-pedri-cruz", "name": "Camiseta Barcelona crema · Pedri 8", "price": 22990, "description": "Crema con cruz roja.", "sizes": ["S", "M", "L", "XL"], "image": "/barcelona-pedri-cruz-frente.webp", "position": 16, "categories": ["Camisetas", "Adultos"], "gallery": ["/barcelona-pedri-cruz-frente.webp", "/barcelona-pedri-cruz-espalda.webp", "/barcelona-pedri-cruz-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
+  {"id": "jamaica-marley-negra", "name": "Camiseta Jamaica negra · Marley 10", "price": 22990, "description": "Negra con motivos rojos, verdes y amarillos.", "sizes": ["S", "M", "L", "XL"], "image": "/jamaica-marley-negra-frente.webp", "position": 17, "categories": ["Camisetas", "Adultos"], "gallery": ["/jamaica-marley-negra-frente.webp", "/jamaica-marley-negra-espalda.webp", "/jamaica-marley-negra-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
+  {"id": "arsenal-odegaard-roja", "name": "Camiseta Arsenal roja · Ødegaard 8", "price": 22990, "description": "Roja con mangas blancas.", "sizes": ["S", "M", "L", "XL"], "image": "/arsenal-odegaard-roja-frente.webp", "position": 18, "categories": ["Camisetas", "Adultos"], "gallery": ["/arsenal-odegaard-roja-frente.webp", "/arsenal-odegaard-roja-espalda.webp", "/arsenal-odegaard-roja-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
+  {"id": "barcelona-rodrigo-azul", "name": "Camiseta Barcelona azul oscuro · Rodrigo 16", "price": 22990, "description": "Azul oscuro con detalles amarillos.", "sizes": ["S", "M", "L", "XL"], "image": "/barcelona-rodrigo-azul-frente.webp", "position": 19, "categories": ["Camisetas", "Adultos"], "gallery": ["/barcelona-rodrigo-azul-frente.webp", "/barcelona-rodrigo-azul-espalda.webp", "/barcelona-rodrigo-azul-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
+  {"id": "arsenal-saka-azul", "name": "Camiseta Arsenal azul · Saka 7", "price": 22990, "description": "Azul con detalles amarillos y rojos.", "sizes": ["S", "M", "L", "XL"], "image": "/arsenal-saka-azul-frente.webp", "position": 20, "categories": ["Camisetas", "Adultos"], "gallery": ["/arsenal-saka-azul-frente.webp", "/arsenal-saka-azul-espalda.webp", "/arsenal-saka-azul-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
+  {"id": "chelsea-caicedo-azul", "name": "Camiseta Chelsea azul · Caicedo 25", "price": 22990, "description": "Azul con detalles amarillos.", "sizes": ["S", "M", "L", "XL"], "image": "/chelsea-caicedo-azul-frente.webp", "position": 21, "categories": ["Camisetas", "Adultos"], "gallery": ["/chelsea-caicedo-azul-frente.webp", "/chelsea-caicedo-azul-espalda.webp", "/chelsea-caicedo-azul-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
+  {"id": "city-haaland-celeste-g5", "name": "Camiseta Manchester City celeste · Haaland 9", "price": 22990, "description": "Celeste con detalles blancos e insignia termosellada.", "sizes": ["S", "M", "L", "XL"], "image": "/city-haaland-celeste-g5-frente.webp", "position": 22, "categories": ["Camisetas", "Adultos"], "gallery": ["/city-haaland-celeste-g5-frente.webp", "/city-haaland-celeste-g5-espalda.webp", "/city-haaland-celeste-g5-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
+  {"id": "bayern-kane-blanca", "name": "Camiseta Bayern Múnich blanca · Kane 9", "price": 22990, "description": "Blanca con cuello azul y vivos rojos.", "sizes": ["S", "M", "L", "XL"], "image": "/bayern-kane-blanca-frente.webp", "position": 23, "categories": ["Camisetas", "Adultos"], "gallery": ["/bayern-kane-blanca-frente.webp", "/bayern-kane-blanca-espalda.webp", "/bayern-kane-blanca-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
+  {"id": "chelsea-palmer-negra", "name": "Camiseta Chelsea negra · Palmer 10", "price": 22990, "description": "Negra con detalles amarillos.", "sizes": ["S", "M", "L", "XL"], "image": "/chelsea-palmer-negra-frente.webp", "position": 24, "categories": ["Camisetas", "Adultos"], "gallery": ["/chelsea-palmer-negra-frente.webp", "/chelsea-palmer-negra-espalda.webp", "/chelsea-palmer-negra-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [2]},
+  {"id": "arsenal-saka-ninos", "name": "Camiseta Arsenal roja · Saka 7 · Niños", "price": 22990, "description": "Roja con mangas blancas e insignia bordada.", "sizes": ["10", "12", "14"], "image": "/arsenal-saka-ninos-frente.webp", "position": 25, "categories": ["Camisetas", "Niños"], "gallery": ["/arsenal-saka-ninos-frente.webp", "/arsenal-saka-ninos-espalda.webp", "/arsenal-saka-ninos-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [0, 1, 2]},
+  {"id": "city-haaland-celeste-bordada", "name": "Camiseta Manchester City celeste bordada · Haaland 9", "price": 22990, "description": "Celeste con detalles blancos e insignia bordada.", "sizes": ["S", "M"], "image": "/city-haaland-celeste-bordada-frente.webp", "position": 26, "categories": ["Camisetas", "Adultos"], "gallery": ["/city-haaland-celeste-bordada-frente.webp", "/city-haaland-celeste-bordada-espalda.webp", "/city-haaland-celeste-bordada-modelo.webp"], "galleryLabels": ["Frente", "Espalda", "Camiseta puesta"], "illustratedSlides": [0, 1, 2]},
+  {"id": "universidad-catolica-blanca", "name": "Camiseta Universidad Católica blanca", "price": 22990, "description": "Blanca con franja azul y cuello azul.", "sizes": ["S", "M", "L", "XL"], "image": "/universidad-catolica-blanca-frente.webp", "position": 27, "categories": ["Camisetas", "Adultos"], "gallery": ["/universidad-catolica-blanca-frente.webp", "/universidad-catolica-blanca-espalda.webp", "/universidad-catolica-blanca-detalle.webp"], "galleryLabels": ["Frente", "Espalda", "Detalle del escudo"]}
 ]
