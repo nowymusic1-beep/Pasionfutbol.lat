@@ -516,6 +516,26 @@ body>footer p{color:#edf4ff}
 .vitrina.active .v-card.focus .v-note:nth-of-type(3){transition-delay:.16s}
 @media(max-width:40rem){.v-note{display:none}}
 @media(prefers-reduced-motion:reduce){.v-note,.v-caption{transition:none}}
+
+/* Pasión Fútbol: identidad eléctrica */
+:root{--blue:#54b4ff;--accent:#ffd375;--line:#21548c;--page:#07101e;--surface:#0b1930;--hero:#030b19}
+header{border-bottom:1px solid #258cff;box-shadow:0 3px 20px #1685ff38}
+.wordmark{font-family:"Barlow Condensed",Helvetica,Arial,sans-serif;font-weight:900;font-style:italic;letter-spacing:.015em;color:#f4f8ff;text-shadow:0 2px 0 #54728e,0 0 14px #348bff88}
+.wordmark strong{color:#ffd375;text-shadow:0 2px 0 #936318,0 0 14px #ffcb5266}
+article,.store-banner,.catalog-search input,.audience-sections button,.product-photo,.gallery-view{border-color:#287cc5;border-radius:12px;box-shadow:inset 0 0 12px #126cff13,0 0 12px #147aff20}
+article:hover,button:focus-visible,.catalog-search input:focus{border-color:#6ccaff;box-shadow:0 0 16px #258cff66}
+.product-actions strong,.v-caption b{color:#ffd375;text-shadow:0 0 8px #ffbc3340}
+#order,#shipping,#detail{border:1px solid #43aaff;box-shadow:0 0 24px #1685ff55}
+#order .checkout-card,#shipping .checkout-card{border:1px solid #74a9df}
+.pf-promo{position:relative;display:grid;grid-template-columns:56% 44%;align-items:center;isolation:isolate;overflow:hidden;margin:12px auto;border:1px solid #429fff;border-radius:14px;background:linear-gradient(90deg,#04122c44,#07162be8 66%),url('/estadio-champions.webp') center/cover;box-shadow:inset 0 0 26px #187cff45,0 0 16px #167aff44;min-height:clamp(175px,31vw,390px)}
+.pf-shirts{position:relative;height:100%;min-height:175px;display:flex;align-items:center;justify-content:center;gap:0;padding:4%}
+.pf-shirts img{width:38%;max-height:100%;object-fit:contain;filter:drop-shadow(0 8px 10px #000b);transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+.pf-shirts img:first-child{transform:rotate(-12deg) translateX(18%)}.pf-shirts img:last-child{transform:rotate(12deg) translateX(-18%)}.pf-shirts img:nth-child(2){z-index:2}
+.pf-deals{display:grid;gap:6px;padding:7% 7% 7% 0;text-align:center}.pf-deals a{display:block;padding:6% 2%;border:1px solid #459fff;background:#07182ed9;box-shadow:inset 0 0 9px #258cff55,0 0 8px #258cff44;clip-path:polygon(6% 0,100% 0,100% 75%,94% 100%,0 100%,0 25%);font-family:"Barlow Condensed",Helvetica,Arial,sans-serif;font-weight:900;font-style:italic;font-size:clamp(13px,2.8vw,38px);line-height:1.1;color:#f5f9ff}.pf-deals strong{display:inline-block;color:#ffd375;text-shadow:0 2px 0 #936318,0 0 12px #ffc44555}.pf-deals a:first-child strong{display:block;font-size:1.65em}.pf-deals small{font-size:clamp(9px,1.2vw,14px);color:#d1dff0}
+@keyframes pf-tap{0%{scale:1}35%{scale:.92;filter:drop-shadow(0 0 12px #49baff)}75%{scale:1.07}100%{scale:1}}
+@media(prefers-reduced-motion:no-preference){.pf-tapped img,.pf-shirts.pf-tapped img{animation:pf-tap .42s ease-out}.product-photo:active img,.v-card:active img{scale:.94}}
+@media(max-width:600px){.pf-promo{grid-template-columns:53% 47%;min-height:160px}.pf-shirts{min-height:160px}.pf-deals{gap:4px}.pf-deals a{padding:5% 2%}.pf-deals small{font-size:9px}}
+
 </style>
 </head>
 <body>
@@ -563,7 +583,8 @@ body>footer p{color:#edf4ff}
 </header>
 <main>
   <h1 class="visually-hidden">Pasión Fútbol</h1>
-  <section class="store-banner wrap vitrina" id="vitrina" aria-label="Poleras destacadas"><div class="v-cab"></div><div class="v-rail"></div><div class="vitrina-stage" id="vitrina-stage"></div><div class="v-caption" id="v-caption" aria-hidden="true"></div><div class="v-glass"></div><img class="hero-logo" src="/hero-logo.png" width="168" height="152" alt="Pasión Fútbol"></section>
+<!-- Banner de precios pendiente de sincronización con el cálculo de pago. -->
+  <section class="store-banner wrap vitrina" id="vitrina" aria-label="Camisetas destacadas"><div class="v-cab"></div><div class="v-rail"></div><div class="vitrina-stage" id="vitrina-stage"></div><div class="v-caption" id="v-caption" aria-hidden="true"></div><div class="v-glass"></div><img class="hero-logo" src="/hero-logo.png" width="168" height="152" alt="Pasión Fútbol"></section>
   <section class="catalog wrap" id="catalogo" aria-labelledby="catalog-title">
     <h2 class="visually-hidden" id="catalog-title">Colección de fútbol</h2>
     <label class="catalog-search">
@@ -1305,5 +1326,6 @@ sheetGrip.addEventListener("lostpointercapture", () => {
 saveSelection();
 renderCatalog();
 </script>
+<script>document.addEventListener("pointerdown",e=>{const el=e.target.closest(".product-photo,.v-card,.pf-shirts");if(!el)return;el.classList.remove("pf-tapped");void el.offsetWidth;el.classList.add("pf-tapped");setTimeout(()=>el.classList.remove("pf-tapped"),450)});</script>
 </body>
 </html>
