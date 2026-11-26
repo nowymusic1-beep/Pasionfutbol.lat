@@ -7,7 +7,7 @@
 <link rel="icon" type="image/png" sizes="64x64" href="/pelota-corona.png">
 <meta name="description" content="Camisetas y ropa de entrenamiento para la cancha y la tribuna.">
 <style>
-:root{--page:#090e18;--ink:#f5f8ff;--muted:#b9c6da;--line:#344765;--hero:#050910;--surface:#101a2b;--photo:#18263a;--accent:#ffcb32;--accent-ink:#171100;--green-text:#82e9a7;--blue:#76c8ff;font-family:"DM Sans",sans-serif;color:var(--ink);background:var(--page);color-scheme:dark}
+:root{--page:#090e18;--ink:#f5f8ff;--muted:#b9c6da;--line:#344765;--hero:#050910;--surface:#101a2b;--photo:#18263a;--accent:#ffcb32;--accent-ink:#171100;--green-text:#7cc4ff;--blue:#76c8ff;font-family:"DM Sans",sans-serif;color:var(--ink);background:var(--page);color-scheme:dark}
 *{box-sizing:border-box}
 body{margin:0;padding-bottom:calc(92px + env(safe-area-inset-bottom))}
 button,input,select{font:inherit}
@@ -119,7 +119,7 @@ dialog h2{font-size:39px}
 body{background:var(--page)}
 header{box-shadow:0 1px 22px #0005}
 .wordmark,h1,h2,.product-copy h3,.audience-sections button{font-family:"Barlow Condensed","Arial Narrow",sans-serif;font-weight:800;letter-spacing:.02em}
-.wordmark{text-shadow:0 0 24px #176b3b20}
+.wordmark{text-shadow:0 0 24px #0a5cff40}
 button,.button,select,input{border-radius:10px}
 .button,.cart-icon,#count{background:var(--accent);color:var(--accent-ink)}
 .audience-sections button{font-size:1.65rem;text-transform:uppercase}
@@ -250,13 +250,13 @@ dialog{background:var(--surface);border-radius:18px;border-color:var(--line);box
 #shipping{width:min(96vw,49rem);max-height:96dvh;padding:0;background:var(--page);overscroll-behavior:contain}
 #shipping [hidden]{display:none}
 .checkout-banner,.checkout-footer{
-  color:#fff;background:linear-gradient(90deg,#06291dec,#124530d9),url('/estadio-champions.webp') center/cover;
+  color:#fff;background:linear-gradient(90deg,#03123aec,#0a3fb8d9),url('/estadio-champions.webp') center/cover;
 }
 .checkout-banner{position:relative;display:flex;align-items:center;justify-content:space-between;gap:.75rem;min-height:9rem;padding:1rem 3.25rem 1rem 1rem;overflow:hidden}
 .checkout-brand{position:relative;z-index:1;min-width:0}
 .checkout-brand img{display:block;width:2.65rem;height:2.65rem;margin-bottom:.2rem}
 .checkout-brand h2{font-size:clamp(1.75rem,5vw,3rem);line-height:.95;text-transform:uppercase}
-.checkout-brand p{margin:.35rem 0 0;color:#b9ffd2;font-size:.875rem;font-weight:800}
+.checkout-brand p{margin:.35rem 0 0;color:#cfe4ff;font-size:.875rem;font-weight:800}
 .checkout-shirts{display:flex;align-items:center;justify-content:flex-end;gap:.35rem;min-width:0;flex:0 1 58%}
 .checkout-shirts img{width:min(22%,5rem);height:auto;aspect-ratio:1;object-fit:contain;border-radius:.5rem;background:var(--surface);filter:drop-shadow(0 .25rem .4rem #0008)}
 .checkout-shirts span{flex:none;font-size:.875rem;font-weight:800}
@@ -296,11 +296,11 @@ dialog{background:var(--surface);border-radius:18px;border-color:var(--line);box
 .checkout-method span,.checkout-method a{display:block;font-size:.875rem}
 .checkout-method span{margin-top:.16rem}
 .checkout-assurance .checkout-method + .checkout-method{border-top:1px solid var(--line)}
-.checkout-protection{border-color:#176b3b}
-.checkout-protection .checkout-method{background:#102f26;color:#d6ffe3;padding:.85rem}
+.checkout-protection{border-color:#1f6bff}
+.checkout-protection .checkout-method{background:#0b2250;color:#e3eeff;padding:.85rem}
 .checkout-protection strong{display:block;font-size:1.1rem;font-weight:900;line-height:1.15}
-.checkout-protection .checkout-icon{width:2.25rem;height:2.25rem;padding:.4rem;border-radius:.5rem;background:#176b3b;color:#fff}
-.checkout-method .checkout-support{display:inline-flex;gap:.35rem;width:fit-content;align-items:center;min-height:38px;margin-top:.35rem;padding:.25rem .65rem;border-radius:.4rem;background:#087239;color:#fff;font-weight:750}
+.checkout-protection .checkout-icon{width:2.25rem;height:2.25rem;padding:.4rem;border-radius:.5rem;background:#0a5cff;color:#fff}
+.checkout-method .checkout-support{display:inline-flex;gap:.35rem;width:fit-content;align-items:center;min-height:38px;margin-top:.35rem;padding:.25rem .65rem;border-radius:.4rem;background:#0a5cff;color:#fff;font-weight:750}
 .checkout-club{display:flex;align-items:center;gap:.65rem;padding:.75rem;background:var(--hero) url('/estadio-champions.webp') center/cover;color:#fff;border-radius:.65rem}
 .checkout-club img{width:2.75rem;height:2.75rem}
 .checkout-club strong{font-style:italic;text-shadow:0 1px 4px #000}
@@ -320,7 +320,7 @@ dialog{background:var(--surface);border-radius:18px;border-color:var(--line);box
 .checkout-footer{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.65rem;padding:1rem 1rem 2rem}
 .checkout-footer a,.checkout-footer span{display:flex;align-items:center;justify-content:center;gap:.45rem;font-size:.875rem;font-weight:750}
 .checkout-footer > * + *{border-left:1px solid #ffffff85;padding-left:.55rem}
-.checkout-footer .checkout-icon{color:#b9ffd2}
+.checkout-footer .checkout-icon{color:#cfe4ff}
 .checkout-support .checkout-icon{width:1rem;height:1rem}
 #shipping .button,#order .button{font-weight:850;gap:.55rem}
 #order .dialog-top h2,#order .close,#shipping .close,#back-to-cart,#checkout-edit{display:flex;align-items:center;gap:.45rem}
@@ -347,15 +347,12 @@ dialog{background:var(--surface);border-radius:18px;border-color:var(--line);box
 }
 
 /* Storefront accents and cover-aware carousel */
-:root{--store-green:#16a34a}
-.wordmark strong{color:#36cf72}
+:root{--store-green:#0a5cff}
+.wordmark strong{color:#ffd21f}
 .header-contact a[href^="mailto:"]{color:#ff554b}
-.audience-sections button[data-audience="Adultos"]{background:#ffcb32;color:#171100;border-color:#ffcb32}
-.audience-sections button[data-audience="Niños"]{background:var(--store-green);color:#03150a;border-color:var(--store-green)}
-.audience-sections button[aria-pressed="true"]{box-shadow:0 0 0 2px #fff;outline-offset:4px;text-decoration:underline;text-underline-offset:.25em}
-.cart-icon{background:#102f24;color:#45dd81}
-#count{background:var(--store-green);color:#04170b}
-.add-to-cart svg,.product-card .plus,#products .plus{color:#087633}
+.cart-icon{background:#0b2250;color:#ffd21f}
+#count{background:#ffd21f;color:#0a1a40}
+.add-to-cart svg,.product-card .plus,#products .plus{color:#0a5cff}
 .hero-slide:not([hidden]) .hero-photo{animation:none}
 .hero-slide .hero-logo{box-shadow:none}
 body>footer{border:0;min-height:clamp(13rem,29vw,27rem);box-sizing:border-box;display:flex;align-items:end;background:linear-gradient(to bottom,var(--page),#090e1866 50%,#050c1af5 97%),url('/estadio-champions.webp') center/cover no-repeat}
@@ -363,7 +360,7 @@ body>footer p{color:#edf4ff}
 
 #order,#shipping{
   --page:#fbfcfe;--ink:#071735;--muted:#36435a;--line:#d9dfeb;--surface:#fff;--photo:#ebeff8;
-  --accent:#ffcc00;--accent-ink:#111000;--hero:#031636;--green:#087f3e;
+  --accent:#ffcc00;--accent-ink:#111000;--hero:#031636;--green:#0a5cff;
   --summary-size:clamp(.875rem,2.45vw,1rem);
   box-sizing:border-box;color:var(--ink);background:var(--page);border:0;overflow:auto;overscroll-behavior:contain;
 }
@@ -388,7 +385,7 @@ body>footer p{color:#edf4ff}
 .checkout-brand p{margin-top:.15rem;font-size:clamp(.65rem,2vw,.95rem);color:#fff;text-transform:uppercase}
 .checkout-banner-security{white-space:nowrap;font-size:clamp(.65rem,2vw,1rem);font-weight:750;line-height:1.12}
 .checkout-banner-security svg{width:clamp(1.65rem,5vw,2.85rem);height:clamp(1.65rem,5vw,2.85rem)}
-#order .checkout-banner .close,#shipping .checkout-banner .close{background:transparent;color:#56ee91;border:0;top:.15rem;right:.15rem}
+#order .checkout-banner .close,#shipping .checkout-banner .close{background:transparent;color:#ffd21f;border:0;top:.15rem;right:.15rem}
 .sheet-grip{min-height:16px}
 .sheet-grip::after{height:3px;background:#c6cede}
 #order .dialog-top{margin:0 1rem;padding:.2rem 0 .65rem;border-bottom:2px solid var(--accent)}
@@ -412,7 +409,7 @@ body>footer p{color:#edf4ff}
 #order .order-footer{border:0;padding-bottom:.4rem}
 .cart-delivery,.order-totals,.shipping-review{background:var(--photo);border-radius:.7rem;padding:.65rem .75rem;margin-top:.5rem}
 .cart-delivery,.shipping-review{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:.55rem;align-items:center}
-#cart-delivery-price{background:#d6f1dd;color:#075b24;border-radius:.55rem;padding:.4rem;text-align:right;font-size:var(--summary-size)}
+#cart-delivery-price{background:#dbe8ff;color:#0a3fb8;border-radius:.55rem;padding:.4rem;text-align:right;font-size:var(--summary-size)}
 #order .shipping-note,#order .total{font-size:var(--summary-size);color:var(--ink)}
 #order .shipping-note{margin:.3rem 0;line-height:1.35}
 #order .total{padding:.22rem 0}
@@ -537,6 +534,18 @@ article:hover,button:focus-visible,.catalog-search input:focus{border-color:#6cc
 @media(max-width:600px){.pf-promo{grid-template-columns:53% 47%;min-height:160px}.pf-shirts{min-height:160px}.pf-deals{gap:4px}.pf-deals a{padding:5% 2%}.pf-deals small{font-size:9px}}
 
 .pf-promo[hidden]{display:none!important}
+
+/* Botones Adultos / Niños: azul eléctrico + amarillo */
+.audience-sections{gap:10px;padding:6px;margin-bottom:22px;border:1px solid #1f6bff;border-radius:18px;background:#050f26;box-shadow:inset 0 0 18px #0a5cff30,0 0 22px #0a5cff40}
+.audience-sections button{position:relative;display:flex;align-items:center;justify-content:center;gap:10px;min-height:64px;border:2px solid #1f6bff;border-radius:13px;background:linear-gradient(180deg,#0c2257,#071634);color:#cfe2ff;font-family:"Barlow Condensed",Helvetica,Arial,sans-serif;font-size:clamp(22px,6vw,30px);font-weight:900;font-style:italic;letter-spacing:.06em;text-transform:uppercase;box-shadow:none;transition:transform .15s,background .2s,box-shadow .2s,color .2s}
+.audience-sections button::before{content:"";width:1.05em;height:1.05em;flex:none;background:currentColor;-webkit-mask:var(--ico) center/contain no-repeat;mask:var(--ico) center/contain no-repeat}
+.audience-sections button[data-audience="Adultos"]{--ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 2 3 5l1.6 5L7 9v13h10V9l2.4 1L21 5l-5-3a4 4 0 0 1-8 0z'/%3E%3C/svg%3E")}
+.audience-sections button[data-audience="Niños"]{--ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 3 4.5 5.5 6 10l2-.7V21h8V9.3l2 .7 1.5-4.5L15 3a3 3 0 0 1-6 0z'/%3E%3C/svg%3E")}
+.audience-sections button[data-audience="Niños"]::before{width:.85em;height:.85em}
+.audience-sections button[aria-pressed="true"]{background:linear-gradient(180deg,#2a7bff,#0047ff);color:#fff;border-color:#ffd21f;box-shadow:0 0 0 2px #0a1a40,0 0 24px #1f6bffcc,inset 0 1px 0 #ffffff55;text-shadow:0 2px 0 #00267a}
+.audience-sections button[aria-pressed="true"]::after{content:"";position:absolute;left:18%;right:18%;bottom:6px;height:4px;border-radius:3px;background:#ffd21f;box-shadow:0 0 10px #ffd21f99}
+.audience-sections button:active{transform:scale(.97)}
+@media(hover:hover){.audience-sections button[aria-pressed="false"]:hover{border-color:#ffd21f;color:#fff;box-shadow:0 0 16px #1f6bff99}}
 </style>
 </head>
 <body>
