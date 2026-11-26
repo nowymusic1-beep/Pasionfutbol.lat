@@ -584,7 +584,7 @@ article:hover,button:focus-visible,.catalog-search input:focus{border-color:#6cc
 </header>
 <main>
   <h1 class="visually-hidden">Pasión Fútbol</h1>
-<section class="wrap pf-promo" id="december-offers" hidden aria-label="Ofertas de camisetas"><a class="pf-shirts" href="#catalogo" aria-label="Ver camisetas"><img src="/barcelona-full.png" alt="Barcelona"><img src="/real-madrid-full.png" alt="Real Madrid"><img src="/manchester-city-full.png" alt="Manchester City"></a><div class="pf-deals"><a href="#catalogo">2 CAMISETAS × <strong>$24.990</strong></a><a href="#catalogo">3 × <strong>$36.990</strong></a><a href="#catalogo">4 × <strong>$44.990</strong></a><small>Hasta el 31 de diciembre de 2026</small></div></section>
+<section class="wrap pf-promo" id="december-offers" hidden aria-label="Ofertas de camisetas"><a class="pf-shirts" href="#catalogo" aria-label="Ver camisetas"><img src="/pf-247790-frente.webp" alt="FC Barcelona"><img src="/pf-247872-frente.webp" alt="Real Madrid"><img src="/pf-247764-frente.webp" alt="Argentina"></a><div class="pf-deals"><a href="#catalogo">2 CAMISETAS × <strong>$24.990</strong></a><a href="#catalogo">3 × <strong>$36.990</strong></a><a href="#catalogo">4 × <strong>$44.990</strong></a><small>Hasta el 31 de diciembre de 2026</small></div></section>
   <section class="store-banner wrap vitrina" id="vitrina" aria-label="Camisetas destacadas"><div class="v-cab"></div><div class="v-rail"></div><div class="vitrina-stage" id="vitrina-stage"></div><div class="v-caption" id="v-caption" aria-hidden="true"></div><div class="v-glass"></div><img class="hero-logo" src="/hero-logo.png" width="168" height="152" alt="Pasión Fútbol"></section>
   <section class="catalog wrap" id="catalogo" aria-labelledby="catalog-title">
     <h2 class="visually-hidden" id="catalog-title">Colección de fútbol</h2>
@@ -1218,6 +1218,8 @@ function jerseyHtml(item) {
   </span>`;
 }
 const vItems = products.filter(item => PHOTO[item.id] && !item.categories?.includes("Niños"));
+/* Sin recortes transparentes para el catálogo nuevo: la vitrina se oculta hasta tenerlos. */
+if (!vItems.length) vitrina.style.display = "none";
 const vCards = vItems.map((item, i) => {
   const parts = item.name.split("·").map(t => t.trim());
   const player = parts.length > 1 ? parts.at(-1) : null;
